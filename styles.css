@@ -684,7 +684,8 @@ li:hover:after {
     .menu-decor{
         width: 100%;
         height: 120px;
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 40px;
         display:flex;
         justify-content: center;
@@ -705,12 +706,33 @@ li:hover:after {
     }
 
     .sub-menu-decor{
-        width: 100%;
-        background-color: #191919;
-        position : absolute;
         top: 60px;
         right: 0px;
-        display: none;
     }
     
+    /* -------------------------------- Slider Images -------------------------------------------------------- */
+
+    .slider-imgs{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+        width: 90%;
+        height: 80vh;
+        background: url("/imgs/imgs_slider/img1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;   
+    }
+
+    .left-arrow, .right-arrow {height: 10px;}
+    
+    .left-arrow > i, .right-arrow > i {color: white; font-size: 15px;}
+    
+    .left-arrow{margin-left: 20px;}
+    .right-arrow{margin-right: 20px;}
+
+    .text-img > span {font-size: 2rem;}
+
+    .text-img{margin-left: 15px;}
+
+
 } 
