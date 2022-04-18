@@ -169,6 +169,10 @@ li:hover:after {
 
 .menu-text-icon:hover .sub-menu-decor{
     display: block;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
     z-index: 5;
 }
 
@@ -647,6 +651,12 @@ li:hover:after {
         align-items: center;
         justify-content:center;
         width: 100%;
+    }
+
+    /* --------------------------- sub menu decor ------------------------------------------ */
+
+    .sub-menu-decor{
+        width: 40vw;
     }
     
 } 
