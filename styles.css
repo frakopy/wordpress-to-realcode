@@ -312,7 +312,6 @@ li:hover:after {
 }
 
 /* ------------------------------------------ Products ------------------------------------------------------------------ */
-
 .container-products1{
     margin-top: 20px;
     margin-left: 70px;
@@ -524,6 +523,7 @@ li:hover:after {
     align-items: center;
     flex-wrap: wrap;
     margin-left: 70px;
+    height: 100vh;
 }
 
 .imgs-featured img {
@@ -571,10 +571,11 @@ li:hover:after {
 
 .show-more{
     width: 100%;
-    height: 30vh;
+    height: 70vh;
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-top: 200px;
 }
 
 .button-show{
@@ -747,5 +748,74 @@ li:hover:after {
         font-size: 10px;
         font-weight: bold;
     }
+
+    /* -------------------------------- Container Products -------------------------------------------------------- */
+
+        
+    .container-products1{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        /* Arreglar esto por que no puede quedar este exagerado margin */
+        margin-bottom: 1900px; 
+        /* Arreglar esto por que no puede quedar este exagerado margin */
+        width: 90%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .product1, .product2{width: 100%; height: 35%;}
+
+    .product3{width: 100%; height: 50%;}
+
+    .product4, .product5, .product6, .product7, .product8, .product9{
+        width: 100%;
+        height: 25%;
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+
+/* ---------------------------------- Feature Products ---------------------------------------------- */
+
+    
+    .imgs-featured{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+    }
+
+    .images-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images-container:after {
+        content: "";
+        position: absolute;
+        left: auto;
+        right: auto;
+        top: 100%;
+        width: 80%;
+        height: 1px;
+        background-color: #DDDDDD;
+        margin-top: 20px;
+    }
+
+    .featured-products{width:100%;}
+
+    .featured-products span {font-size: 2rem;}
+
+    .featured-products span::before{display: none;}
+
+    .featured-products span::after{display: none;}
 
 } 
