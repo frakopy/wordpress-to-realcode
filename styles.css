@@ -756,9 +756,8 @@ li:hover:after {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
-        /* Arreglar esto por que no puede quedar este exagerado margin */
-        margin-bottom: 1900px; 
-        /* Arreglar esto por que no puede quedar este exagerado margin */
+        
+        
         width: 90%;
         height: 100vh;
         display: flex;
