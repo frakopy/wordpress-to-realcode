@@ -604,7 +604,6 @@ li:hover:after {
 
 
     .header{
-        background-color: red;
         width: 100vw;
     }
 
@@ -614,7 +613,6 @@ li:hover:after {
         height: 30vh;
         align-items: center;
         justify-content:center;
-        background-color: gray;
     }
 
     .phone-email > a {margin-right: 0px;}
