@@ -168,7 +168,6 @@ li:hover:after {
 }
 
 .menu-text-icon:hover .sub-menu-decor{
-    display: block;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -602,6 +601,8 @@ li:hover:after {
 @media only screen and (max-width: 750px){
 
     /*---------------------- phone - email and offer ------------------------------------- */
+
+
     .header{
         width: 100vw;
     }
@@ -609,9 +610,10 @@ li:hover:after {
     .section-contact{
         flex-direction: column;
         width: 100vw;
-        height: 40vh;
+        height: 30vh;
         align-items: center;
         justify-content:center;
+        margin-bottom: 0px;
     }
 
     .phone-email > a {
@@ -657,13 +659,58 @@ li:hover:after {
         flex-direction: column;
         align-items: center;
         justify-content:center;
+        width: 90vw;
+    }
+
+    .ul-menu li a  span {
+        font-size: 1em;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .ul-login, .ul-wishlist, .ul-cart{
+        padding: 0;
         width: 100%;
     }
 
     /* --------------------------- sub menu decor ------------------------------------------ */
 
+    .menu-decor{
+        width: 100%;
+        height: 120px;
+        margin-left: 0px;
+        margin-top: 40px;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu-text-icon{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .search{
+        width: 96%;
+        height: 2rem;
+    }
+
     .sub-menu-decor{
-        width: 40vw;
+        width: 100%;
+        background-color: #191919;
+        position : absolute;
+        top: 60px;
+        right: 0px;
+        display: none;
     }
     
 } 
