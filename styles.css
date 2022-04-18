@@ -734,5 +734,18 @@ li:hover:after {
 
     .text-img{margin-left: 15px;}
 
+    /* -------------------------------- Footer Slider -------------------------------------------------------- */
+
+    .footer-slider{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .fa-truck, .fa-sack-dollar, .fa-phone, .text-shipping, .text-money, .text-support{
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
 
 } 
